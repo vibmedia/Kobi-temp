@@ -1,11 +1,13 @@
 # Brand Data
 
-Place scraped restaurant/brand CSV data in this directory.
+Place manually sourced restaurant/brand CSV data in this directory.
+
+> ⚠️ **No scraping.** All data is provided manually by the ops team (per PRD guardrails).
 
 ## Expected Sources
-- Google My Business scrape
-- Zomato scrape
-- Manual collection
+- Manually sourced from Google My Business listings
+- Manually sourced from Zomato listings
+- Direct collection from restaurant owners
 
 ## Expected Format
 

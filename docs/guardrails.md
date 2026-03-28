@@ -14,12 +14,16 @@
 | 2 | **Use Google Sheets as CRM first** | Zero cost, zero setup, full team visibility. Migrate to PostgreSQL in Phase 2. |
 | 3 | **Import data manually** | Ops team provides curated CSVs. No scraping infrastructure needed. |
 | 4 | **Use instagrapi for all IG automation** | Free, Python-native, full API control. Single tool for DMs + enrichment. |
-| 5 | **Keep WhatsApp outreach manual** | Relationship-driven sales need human touch. Templates + CRM tracking only. |
+| 5 | **WhatsApp: AI first touch → human handover** | AI sends personalized initial outreach (3-day drip). Human takes over via Chatwoot for all complex replies, negotiation, and deal closing. |
 | 6 | **1 proxy per 2 outreach accounts** | Cost-effective while maintaining safety. Don't over-spend on proxies. |
 | 7 | **Warm up new IG accounts for 2+ weeks** | Week 1: follows/likes. Week 2: comments. Week 3: DMs. No shortcuts. |
 | 8 | **Focus on Delhi NCR restaurants only** | Don't expand geography or industry until Phase 1 revenue targets hit. |
 | 9 | **Use the Job Board model** | Brands post jobs → influencers apply. Reduces manual matching overhead. |
 | 10 | **Points-based incentives only** | No free-deal obligations. Influencers earn points voluntarily. |
+| 11 | **Job Board via IG DM in Phase 1** | AI sends matching jobs to influencers via DM. They reply "interested" to apply. No web page yet. |
+| 12 | **Points expire after 12 months** | Points decay after 12 months of inactivity to keep the system fresh. |
+| 13 | **WhatsApp ban → shift or pause** | If a WhatsApp number gets banned, shift to next available number. If none, pause outreach until recovered. |
+| 14 | **No-show policy: warning → ban → demotion** | 1st no-show = warning. 2nd = 7-day ban from jobs. 3rd = permanent tier demotion. |
 
 ### ❌ DON'T
 
@@ -28,13 +32,14 @@
 | 1 | **Don't build a dashboard in Phase 1** | Google Sheets is the dashboard. A Next.js app is Phase 2. |
 | 2 | **Don't scrape anything** | All data is manually sourced. No GMB/Zomato/IG scrapers. |
 | 3 | **Don't use Socionator for IG DMs** | Socionator is manual cold-email fallback only. instagrapi is the DM tool. |
-| 4 | **Don't automate WhatsApp outreach** | Manual sending via Evolution API. No AI agent for WhatsApp. |
+| 4 | **Don't let AI handle WhatsApp negotiation or deal-closing** | AI sends personalized first touch + answers FAQs only. All interested/complex replies route to Chatwoot for human sales. |
 | 5 | **Don't build upsell features** | WordPress sites and Meta Ads are delivered manually as add-on services. |
 | 6 | **Don't over-engineer the tech stack** | No Temporal, no Qdrant, no complex infra for Phase 1. Keep it simple. |
 | 7 | **Don't assign 1 proxy per 1 outreach account** | 1 proxy : 2 outreach accounts is the model. Don't waste budget. |
 | 8 | **Don't force free deals on influencers** | Use the points system instead. Free deals create resentment and pressure. |
-| 9 | **Don't expand beyond food/restaurants** | Phase 1 = food niche only. Skin deep in other industries = failure. |
-| 10 | **Don't send DMs from unwarmup'd accounts** | Minimum 2 weeks warmup. Skipping = ban risk. |
+| 9 | **Don't use Odoo or any external CRM** | Google Sheets → PostgreSQL migration path. No third-party CRM tools. |\r
+| 10 | **Don't expand beyond food/restaurants** | Phase 1 = food niche only. Skin deep in other industries = failure. |\r
+| 11 | **Don't send DMs from unwarmup'd accounts** | Minimum 2 weeks warmup. Skipping = ban risk. |
 
 ---
 

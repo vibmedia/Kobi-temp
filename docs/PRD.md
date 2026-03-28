@@ -128,10 +128,28 @@ VibMedia is an AI-assisted influencer marketing agency where AI agents automate 
 
 | Activity | Method | Why Not AI |
 |---|---|---|
-| Brand outreach (WhatsApp) | Manual by sales team | Relationship-driven, needs human judgment |
 | Raw data sourcing | Manual import (CSV/Sheets) | Data is provided by ops team |
 | Upsell services (WordPress, Meta Ads) | Manual delivery | Low volume, custom work |
 | Deal negotiation & closing | Human via Chatwoot | Trust-building, complex pricing |
+
+### 4.4 AI Agent: WhatsApp Hybrid Outreach (NEW)
+
+**Purpose:** Send personalized initial WhatsApp messages to restaurant brands using enriched data, then hand over to human sales for complex conversations and deal closing.
+
+**Capabilities:**
+- Generate personalized Day 1 message using {restaurant_name}, {popular_dish}, {area}, {cuisine}
+- Send 3-day drip sequence via Evolution API (Day 1: custom hook, Day 2: social proof, Day 3: free deal offer)
+- Classify incoming replies (positive, neutral, negative, price_objection, already_doing)
+- Auto-answer simple FAQ questions ("how does it work?", "what is the cost?")
+- Route all interested/complex/negotiation replies to Chatwoot for human handover
+- Log all conversations in CRM
+
+**Human Gates:**
+- All deal-related conversations → human via Chatwoot
+- Price negotiations → human always
+- Brand expresses interest → human qualifies and closes
+
+> ⚠️ **NOT agent scope:** Deal negotiation, pricing discussions, closing, contract terms — all handled by human sales team via Chatwoot
 
 ---
 

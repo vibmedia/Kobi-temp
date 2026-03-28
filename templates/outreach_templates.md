@@ -3,7 +3,7 @@
 ## Day 1: Custom Hook
 ```
 Hi {restaurant_name}! 👋
-We noticed your {specific_dish_from_zomato} on Zomato looks amazing 🔥
+We noticed your {popular_dish} looks amazing 🔥
 We connect restaurants like yours with food creators who make viral reels.
 Interested in getting your dishes featured? Takes 2 minutes to discuss.
 ```
